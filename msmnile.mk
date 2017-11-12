@@ -244,7 +244,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.raphael.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
 
 # IPA
 PRODUCT_PACKAGES += \
