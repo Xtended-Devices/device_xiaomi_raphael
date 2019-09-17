@@ -1,0 +1,2 @@
+add_lunch_combo xtended_raphael-userdebug
+export SKIP_ABI_CHECKS=true
