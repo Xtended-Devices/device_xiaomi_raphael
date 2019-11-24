@@ -371,6 +371,10 @@ PRODUCT_PACKAGES += \
     libril \
     librilutils
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_raphael
