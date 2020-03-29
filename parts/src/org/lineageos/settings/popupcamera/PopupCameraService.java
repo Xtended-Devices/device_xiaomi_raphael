@@ -35,6 +35,8 @@ import android.util.Log;
 
 import vendor.xiaomi.hardware.motor.V1_0.IMotor;
 
+import org.lineageos.settings.utils.FileUtils;
+
 public class PopupCameraService extends Service {
 
     private static final String TAG = "PopupCameraService";
