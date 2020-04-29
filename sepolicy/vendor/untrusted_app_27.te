@@ -1,0 +1,5 @@
+allow untrusted_app_27 proc_zoneinfo:file { read };
+
+get_prop(untrusted_app_27, mod_device_prop)
+get_prop(untrusted_app_27, carrier_prop)
+get_prop(untrusted_app_27, miui_prop)

@@ -1,2 +1,13 @@
 type system_manufacturer_prop, property_type;
 type persist_sensors_prop, property_type;
+type vendor_fp_prop, property_type;
+type thermal_normal_prop, property_type;
+type build_flavor_prop, property_type;
+type persist_vendor_wifi_prop, property_type;
+type persist_vendor_ntp_prop, property_type;
+type persist_vendor_debug_prop, property_type;
+type mod_device_prop, property_type;
+type cust_test_prop, property_type;
+type carrier_prop, property_type;
+type miui_prop, property_type;
+type bluetooth_vendor_prop, property_type;

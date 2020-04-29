@@ -1,0 +1,2 @@
+allow location socket_device:dir { write add_name remove_name };
+allow location socket_device:sock_file { create write setattr };

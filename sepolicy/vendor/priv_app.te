@@ -1,0 +1,11 @@
+allow priv_app hal_misys_hwservice:hwservice_manager { add find };
+allow priv_app bt_firmware_file:filesystem getattr;
+allow priv_app firmware_file:filesystem getattr;
+
+get_prop(priv_app, mod_device_prop)
+get_prop(priv_app, miui_prop)
+get_prop(priv_app, vendor_audio_prop)
+get_prop(priv_app, vendor_fp_prop)
+get_prop(priv_app, carrier_prop)
+get_prop(priv_app, cust_test_prop)
+get_prop(priv_app, vendor_default_prop)

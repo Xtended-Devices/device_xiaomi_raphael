@@ -1,1 +1,2 @@
+get_prop(system_server, wfd_sys_debug_prop)
 get_prop(system_server, persist_camera_prop)

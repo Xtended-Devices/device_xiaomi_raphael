@@ -1,2 +1,2 @@
-allow ims diag_device:chr_file { read write };
-allow ims diag_device:chr_file { open };
+allow ims diag_device:chr_file { read write open ioctl };
+allow ims socket_device:sock_file rw_file_perms;

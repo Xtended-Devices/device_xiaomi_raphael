@@ -1,0 +1,11 @@
+allow init ion_device:chr_file { read open ioctl };
+allow init vendor_file:file { execute };
+#allow init tee_device:chr_file { ioctl };
+allow init hwservicemanager:binder { call transfer };
+allow init init:qipcrtr_socket { read create getattr write setopt };
+allow init hal_fingerprint_default:binder { call transfer };
+allow init akm09970_device:chr_file { read write open ioctl };
+allow init diag_device:chr_file { read write open ioctl };
+allow init sysfs_fod:file { write open };
+allow init hwservicemanager:binder { call transfer };
+allow init sysfs_oem:file w_file_perms;

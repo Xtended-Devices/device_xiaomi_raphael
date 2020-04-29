@@ -24,3 +24,4 @@ allow hal_sensors_default diag_device:chr_file { open read write ioctl };
 
 get_prop(hal_sensors_default, persist_sensors_prop)
 get_prop(hal_sensors_default, vendor_camera_prop)
+get_prop(hal_sensors_default, persist_vendor_debug_prop)

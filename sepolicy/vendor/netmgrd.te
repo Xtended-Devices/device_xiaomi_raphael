@@ -1,0 +1,3 @@
+allow netmgrd diag_device:chr_file { read write open ioctl };
+allow netmgrd socket_device:dir { write add_name remove_name };
+allow netmgrd socket_device:sock_file { create write unlink setattr };

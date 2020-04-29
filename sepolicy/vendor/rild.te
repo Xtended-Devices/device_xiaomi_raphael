@@ -1,0 +1,15 @@
+allow rild diag_device:chr_file { read write open ioctl };
+allow rild default_prop:chr_file { read };
+allow rild vendor_pd_locater_dbg_prop:chr_file { read };
+allow rild socket_device:dir { write add_name remove_name };
+allow rild socket_device:sock_file { create write setattr };
+
+get_prop(rild, miui_prop)
+get_prop(rild, vendor_pd_locater_dbg_prop)
+get_prop(rild, vendor_cap_configstore_dbg_prop)
+get_prop(rild, persist_vendor_wifi_prop)
+get_prop(rild, vendor_pd_locater_dbg_prop)
+get_prop(rild, carrier_prop)
+get_prop(rild, mod_device_prop)
+get_prop(rild, build_flavor_prop)
+get_prop(rild, cust_test_prop)

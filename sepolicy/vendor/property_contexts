@@ -11,7 +11,7 @@ ro.camera.                         u:object_r:vendor_camera_prop:s0
 # Fingerprint
 persist.vendor.sys.fp.                   u:object_r:vendor_fp_prop:s0
 ro.boot.fpsensor                         u:object_r:vendor_fp_prop:s0
-ro.hardware.fp                           u:object_r:vendor_fp_prop:s0
+ro.hardware.fp.                          u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.                          u:object_r:vendor_fp_prop:s0
 sys.panel.display                        u:object_r:vendor_fp_prop:s0
 
@@ -23,3 +23,17 @@ persist.sensor.                          u:object_r:persist_sensors_prop:s0
 
 # Xiaomi thermal daemon
 sys.thermal.                             u:object_r:thermal_normal_prop:s0
+
+persist.vendor.bt.                       u:object_r:bluetooth_vendor_prop:s0
+
+ro.build.flavor                          u:object_r:build_flavor_prop:s0
+
+persist.vendor.wifi.                     u:object_r:persist_vendor_wifi_prop:s0
+persist.vendor.ntp.                      u:object_r:persist_vendor_ntp_prop:s0
+persist.vendor.debug.                    u:object_r:persist_vendor_debug_prop:s0
+
+ro.cust.test                             u:object_r:cust_test_prop:s0
+ro.product.mod_device                    u:object_r:mod_device_prop:s0
+ro.carrier.name                          u:object_r:carrier_prop:s0
+
+ro.miui.                                 u:object_r:miui_prop:s0

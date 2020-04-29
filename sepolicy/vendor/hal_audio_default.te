@@ -8,3 +8,7 @@ r_dir_file(hal_audio_default, persist_audio_file)
 set_prop(hal_audio_default, vendor_audio_prop)
 
 allow hal_audio_default audio_socket:sock_file rw_file_perms;
+
+allow hal_audio_default property_socket:sock_file { write };
+allow hal_audio_default init:unix_stream_socket { connectto };
+allow hal_audio_default diag_device:chr_file { read write open ioctl getattr };
