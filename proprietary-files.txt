@@ -881,7 +881,7 @@ product/lib64/vendor.qti.hardware.radio.ims@1.1.so
 product/lib64/vendor.qti.hardware.radio.ims@1.2.so
 product/lib64/vendor.qti.hardware.radio.ims@1.3.so
 product/lib64/vendor.qti.hardware.radio.ims@1.4.so
--product/priv-app/ims/ims.apk
+-product/priv-app/ims/ims.apk|f60da88facad90103b1713702abbebdda3edca21
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
