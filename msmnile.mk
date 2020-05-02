@@ -336,6 +336,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=0
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.xiaomi_msmnile
