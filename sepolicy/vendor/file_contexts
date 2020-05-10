@@ -16,7 +16,7 @@
 /vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_msmnile                                   u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power@1\.2-service\.xiaomi_msmnile                                   u:object_r:hal_power_default_exec:s0
 /vendor/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_raphael          u:object_r:hal_lineage_fod_default_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1.0-service                                             u:object_r:hal_motor_default_default_exec:s0
+/vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1.0-service                                             u:object_r:hal_lineage_camera_motor_default_exec:s0
 
 # Mlipay
 /vendor/bin/mlipayd@1\.1                                                                               u:object_r:hal_mlipay_default_exec:s0
@@ -38,5 +38,5 @@
 /vendor/bin/wifi-mac-generator                                                                         u:object_r:wifi-mac-generator_exec:s0
 
 # Xiaomi thermal daemon
-/vendor/bin/mi_thermald		                                                                       u:object_r:mi_thermald_exec:s0
+/vendor/bin/mi_thermald		                                                                           u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?                                                                             u:object_r:thermal_data_file:s0
