@@ -101,6 +101,12 @@ on boot
 
     chown system system /sys/kernel/boot_slpi/ssr
 
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+    chmod 0660 /sys/class/power_supply/battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/charging_enabled
+
     # This location is used by QCRIL to host UNIX domain
     # socket files used for internal IPC within QCRIL
     # modules
@@ -139,10 +145,6 @@ on boot
     # Allow system to modify exposure adjustment state
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable
     chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable
-
-    # Allow system to read measured screen FPS
-    chown system graphics /sys/class/drm/card0/sde-crtc-0/measured_fps
-    chmod 0660 /sys/class/drm/card0/sde-crtc-0/measured_fps
 
 on post-fs-data
     # Create directory used by display clients
