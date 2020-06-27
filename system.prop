@@ -77,3 +77,6 @@ ro.debuggable=1
 
 # WiFi
 wifi.interface=wlan0
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
