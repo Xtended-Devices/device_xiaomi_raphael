@@ -15,14 +15,16 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Colt stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit from ANXCamera vendor.
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_raphael
+PRODUCT_NAME := colt_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
@@ -33,3 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="raphael"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# ColtOS stuff
+TARGET_BOOT_ANIMATION_RES := 1080x2340
+COLT_BUILD_TYPE := Official
+COLT_DEVICE_MAINTAINER := HSgod
