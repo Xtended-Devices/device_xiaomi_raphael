@@ -11,3 +11,6 @@ type cust_test_prop, property_type;
 type carrier_prop, property_type;
 type miui_prop, property_type;
 type bluetooth_vendor_prop, property_type;
+
+# Dolby
+type vendor_dolby_loglevel_prop, property_type;

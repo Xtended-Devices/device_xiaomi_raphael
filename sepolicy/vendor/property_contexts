@@ -37,3 +37,6 @@ ro.product.mod_device                    u:object_r:mod_device_prop:s0
 ro.carrier.name                          u:object_r:carrier_prop:s0
 
 ro.miui.                                 u:object_r:miui_prop:s0
+
+# Dolby
+persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0

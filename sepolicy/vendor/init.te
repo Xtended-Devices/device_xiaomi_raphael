@@ -9,3 +9,6 @@ allow init diag_device:chr_file { read write open ioctl };
 allow init sysfs_fod:file { write open };
 allow init hwservicemanager:binder { call transfer };
 allow init sysfs_oem:file w_file_perms;
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;

@@ -1,3 +1,4 @@
+
 type audio_socket, file_type;
 
 allow hal_audio_default mnt_vendor_file:dir search;
@@ -12,3 +13,7 @@ allow hal_audio_default audio_socket:sock_file rw_file_perms;
 allow hal_audio_default property_socket:sock_file { write };
 allow hal_audio_default init:unix_stream_socket { connectto };
 allow hal_audio_default diag_device:chr_file { read write open ioctl getattr };
+
+# Dolby
+allow hal_audio_default hal_dms_default:binder { transfer call };
+allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
