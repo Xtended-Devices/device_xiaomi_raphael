@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "vendor_xiaomi_raphael",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  },
+  {
+    "repository": "vendor_ANXCamera",
+    "target_path": "vendor/ANXCamera",
+    "branch": "master"
+  }
+]
