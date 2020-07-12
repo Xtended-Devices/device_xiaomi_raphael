@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_raphael.mk
+    $(LOCAL_DIR)/xtended_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_raphael-user \
-    colt_raphael-userdebug \
-    colt_raphael-eng
+    xtended_raphael-user \
+    xtended_raphael-userdebug \
+    xtended_raphael-eng
