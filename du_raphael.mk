@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 
 # Inherit some common xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from ANXCamera vendor.
 $(call inherit-product, vendor/ANXCamera/config.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_raphael
+PRODUCT_NAME := du_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
@@ -38,9 +38,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Xtended stuff
 TARGET_BOOT_ANIMATION_RES := 1080x2340
-XTENDED_BUILD_TYPE := OFFICIAL
+DU_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer := Ritzz
+USE_GAPPS := true
