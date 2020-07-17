@@ -15,8 +15,9 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 
-# Inherit some common xtended stuff.
+# Inherit some common Corvus stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, device/corvus/CorvusParts/corvusparts.mk)
 
 # Inherit from ANXCamera vendor.
 $(call inherit-product, vendor/ANXCamera/config.mk)
