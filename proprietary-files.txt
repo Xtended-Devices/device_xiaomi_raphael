@@ -113,10 +113,6 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 
-# Bluetooth-AptX -from Coral
-product/lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
-product/lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
-
 # CDSP - from LA.UM.8.1.r1-15100-sm8150.0
 vendor/bin/cdsprpcd|6fb2700151a6e6dd57a5d9a388cf3a95d3e8262b
 vendor/lib/libcdsprpc.so|5cdf4019ee1ab6a5b38de9dc3034465d65185603
