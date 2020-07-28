@@ -1,17 +1,19 @@
 [
   {
-    "repository": "vendor_xiaomi_raphael",
-    "target_path": "vendor/xiaomi/raphael",
-    "branch": "10"
+    "repository" :  "vendor_xiaomi_raphael",
+    "target_path":  "vendor/xiaomi/raphael",
+    "branch"     :  "10"
   },
   {
-    "repository": "kernel_xiaomi_raphael",
+    "repository" : "UtsavBalar1231/kernel_xiaomi_raphael",
     "target_path": "kernel/xiaomi/raphael",
-    "branch": "10"
+    "branch"     : "auto-kernel-oss",
+    "remote"     : "github"
   },
   {
-    "repository": "vendor_ANXCamera",
+    "repository" : "HSgod/vendor_ANXCamera",
     "target_path": "vendor/ANXCamera",
-    "branch": "master"
+    "branch"     : "master",
+    "remote"     : "github"
   }
 ]
