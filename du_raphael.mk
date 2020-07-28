@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The PixelExperience Project
+# Copyright (C) 2020 Corvus ROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 
-# Inherit some common xtended stuff.
+# Inherit some common Corvus stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from ANXCamera vendor.
@@ -36,8 +36,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Xtended stuff
+# Corvus stuff
 TARGET_BOOT_ANIMATION_RES := 1080x2340
-DU_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
-USE_GAPPS := true
