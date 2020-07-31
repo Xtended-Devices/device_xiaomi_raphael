@@ -1,8 +1,9 @@
 [
   {
-    "repository" :  "vendor_xiaomi_raphael",
+    "repository" :  "CorvusRom-Devices/vendor_xiaomi_raphael",
     "target_path":  "vendor/xiaomi/raphael",
-    "branch"     :  "10"
+    "branch"     :  "10",
+    "remote"     :  "github"
   },
   {
     "repository" : "UtsavBalar1231/kernel_xiaomi_raphael",
