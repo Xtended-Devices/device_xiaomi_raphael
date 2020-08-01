@@ -21,9 +21,6 @@
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
-
     <!-- Battery Health -->
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
