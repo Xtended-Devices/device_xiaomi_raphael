@@ -16,5 +16,11 @@
     "target_path": "vendor/ANXCamera",
     "branch"     : "master",
     "remote"     : "github"
+  },
+  {
+    "repository" : "PixelExperience/packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch"     : "ten",
+    "remote"     : "gitlab"
   }
 ]
