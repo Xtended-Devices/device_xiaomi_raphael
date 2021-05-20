@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_raphael.mk
+    $(LOCAL_DIR)/bliss_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_raphael-user \
-    octavi_raphael-userdebug \
-    octavi_raphael-eng
+    bliss_raphael-user \
+    bliss_raphael-userdebug \
+    bliss_raphael-eng

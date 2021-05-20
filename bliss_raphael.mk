@@ -16,13 +16,13 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_raphael
+PRODUCT_NAME := bliss_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 9T Pro
+PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -30,9 +30,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# OctaviOS stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USES_BLUR := true
+# FOD animations
 TARGET_WANTS_FOD_ANIMATIONS := true
-OCTAVI_BUILD_TYPE := Official
-OCTAVI_DEVICE_MAINTAINER := nj
+
+# Gapps
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
