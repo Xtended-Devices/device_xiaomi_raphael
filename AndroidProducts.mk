@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_raphael.mk
+    $(LOCAL_DIR)/xtended_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_raphael-user \
-    bliss_raphael-userdebug \
-    bliss_raphael-eng
+    xtended_raphael-user \
+    xtended_raphael-userdebug \
+    xtended_raphael-eng

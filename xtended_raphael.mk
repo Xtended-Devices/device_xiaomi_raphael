@@ -16,10 +16,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_raphael
+PRODUCT_NAME := xtended_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
@@ -32,10 +32,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # FOD animations
 TARGET_WANTS_FOD_ANIMATIONS := true
+EXTRA_FOD_ANIMATIONS := true
 
-# Gapps
-IS_PHONE := true
+# Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+
+XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_BUILD_MAINTAINER := Taran
+XTENDED_BUILD_DONATE_URL := https://www.paypal.me/taranhora
