@@ -16,10 +16,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_raphael
+PRODUCT_NAME := superior_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
